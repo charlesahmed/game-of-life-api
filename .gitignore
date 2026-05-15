@@ -1,0 +1,34 @@
+## Build outputs
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+TestResults/
+
+## SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+## IDE / editor artefacts
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+.idea/
+*.DotSettings.user
+
+## NuGet artefacts
+*.nupkg
+*.snupkg
+project.lock.json
+packages/
+
+## OS artefacts
+.DS_Store
+Thumbs.db
+
+## Coverage artefacts
+coverage*.xml
+coverage*.json
+lcov.info
